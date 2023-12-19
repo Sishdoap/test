@@ -85,7 +85,7 @@ public class vehicleController implements Initializable{
             return;
         }
         File originalFile = new File(selectedFile.getPath());
-        File vehicleBackup = new File("vehicleBackup.csv");
+        File vehicleBackup = new File("backups/vehicleBackup.csv");
 
         if (vehicleBackup.exists()) {
             // Display confirmation alert

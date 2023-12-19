@@ -84,7 +84,7 @@ public class salesController implements Initializable {
             return;
         }
         File originalFile = new File(selectedFile.getPath());
-        File salesBackup = new File("salesBackup.csv");
+        File salesBackup = new File("backups/salesBackup.csv");
 
         if (salesBackup.exists()) {
             // Display confirmation alert

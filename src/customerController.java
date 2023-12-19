@@ -85,7 +85,7 @@ public class customerController implements Initializable {
         }
 
         File originalFile = new File(selectedFile.getPath());
-        File customerBackup = new File("customerBackup.csv");
+        File customerBackup = new File("backups/customerBackup.csv");
 
         if (customerBackup.exists()) {
             // Display confirmation alert

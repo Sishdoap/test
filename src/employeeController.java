@@ -82,7 +82,7 @@ public class employeeController implements Initializable {
         }
 
         File originalFile = new File(selectedFile.getPath());
-        File employeeBackup = new File("employeeBackup.csv");
+        File employeeBackup = new File("backups/employeeBackup.csv");
 
         if (employeeBackup.exists()) {
             // Display confirmation alert
